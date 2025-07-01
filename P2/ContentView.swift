@@ -16,6 +16,8 @@ struct ContentView: View {
                 .foregroundStyle(.yellow)
             Text("eh")
             Text("Hi")
+            Rectangle()
+                .cornerRadius(20)
         }
         .font(.largeTitle)
         .fontWeight(.bold)
